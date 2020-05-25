@@ -4,6 +4,7 @@ body{
 }
 #cabeceraPagina{
     background-color:rgb(86, 160, 209);
+    overflow: hidden;
 }
 /*#principal seria como el body*/
 #principal{
@@ -18,7 +19,10 @@ body{
     height: 50px;
     /*borde interno de la barra de navegacion*/
     padding: 5px;
-    
+}
+#barra a:link{
+    font-weight: bold;
+    text-decoration: none;
 }
 /*colocamos el color a cada elemento "li" por separado con el id "barra"  con la funcion :nth-child()*/
 #barra ul li:nth-child(1){
@@ -38,13 +42,13 @@ body{
 }
 #sobreContxita img{
 margin: 10px;
-float: left;
+
 }
 #sobreContxita aside{
     width: 770px;
     height: 226px;
     margin: 10px, 10px, 10px, 0px;
-   float: left;
+    float: right;
 }
 /*con el header not cambiamos los valores en este caso el color de todas los elementos header menos los headers con el id="CabeceraImagen"*/
 header:not(#CabeceraPagina){
@@ -85,9 +89,16 @@ article p:nth-of-type(even){
     width: 210px;
     height: 500px;
     background-color: rgba(250, 250,250, .7);
+    float: right;
+}
+footer{
+    background-color: rgba(0,80,250,.7);
+    margin-top: 5px;
+    width: 1000px;
+    height: 80px;
     float: left;
 }
-/*Formulario*/
+/*Formulario de contacto*/
 #formulario{
     background-image: url(../IMAGENES/Teclas.jpg);
     background-repeat: no-repeat;
