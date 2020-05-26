@@ -30,15 +30,32 @@ dfn{
 /*Tamaño de la fuente*/
 #principal{
     font-size: 100%;
+    text-align: justify;
 }
-#CabeceraPagina h1{
+
+#cabeceraPagina h1{
     font-size: 350%;
+    text-align: center;
+    line-height: 0%;
+    /*Versalitas al texto*/
+    font-variant: small-caps;
+}
+#cabeceraPagina h2{
+ font-size: 250%;   
+ text-align: center;
+ line-height: 0%;
+ /*Versalitas al texto*/
+ font-variant: small-caps;
 }
 #blog h2{
-    font-size: 250%;
+    font-size: 200%;
+    text-align: center;
+    line-height: 10%;
 }
 h3{
-    font-size: 180%;
+    font-size: 170%;
+    text-align: center;
+    line-height: 10%;
 }
 #cabeceraPagina{
     background-color:rgb(86, 160, 209);
