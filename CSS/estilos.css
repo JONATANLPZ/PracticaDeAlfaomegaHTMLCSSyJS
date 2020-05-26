@@ -27,7 +27,19 @@ h1, h2, h3, strong, b{
 dfn{
    font-family: 'PfennigBoldItalic'; 
 }
-
+/*Tamaño de la fuente*/
+#principal{
+    font-size: 100%;
+}
+#CabeceraPagina h1{
+    font-size: 350%;
+}
+#blog h2{
+    font-size: 250%;
+}
+h3{
+    font-size: 180%;
+}
 #cabeceraPagina{
     background-color:rgb(86, 160, 209);
     overflow: hidden;
