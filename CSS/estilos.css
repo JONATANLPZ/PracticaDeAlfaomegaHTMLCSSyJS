@@ -19,7 +19,15 @@
 }
 body{
     color: white;
+    font-family: 'Pfennig';
 }
+h1, h2, h3, strong, b{
+    font-family: 'PfennigBold';
+}
+dfn{
+   font-family: 'PfennigBoldItalic'; 
+}
+
 #cabeceraPagina{
     background-color:rgb(86, 160, 209);
     overflow: hidden;
@@ -39,7 +47,7 @@ body{
     padding: 5px;
 }
 #barra a:link{
-    font-weight: bold;
+    font-family: 'PfennigBold';
     text-decoration: none;
 }
 /*colocamos el color a cada elemento "li" por separado con el id "barra"  con la funcion :nth-child()*/
