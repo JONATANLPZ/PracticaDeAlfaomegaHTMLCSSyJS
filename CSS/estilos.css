@@ -1,4 +1,22 @@
 @charset "utf-8";
+@font-face{
+    font-family: 'Pfennig';
+    src: url(../FUENTES/Pfennig.eot);
+    src: url(../FUENTES/Pfennig.svg);
+    src: url(../FUENTES/Pfennig.ttf);
+}
+@font-face{
+    font-family: 'PfennigBold';
+    src: url(../FUENTES/PfennigBold.eot);
+    src: url(../FUENTES/PfennigBold.svg);
+    src: url(../FUENTES/PfennigBold.ttf);
+}
+@font-face{
+    font-family: 'PfennigItalic';
+    src: url(../FUENTES/PfennigBoldItalic.eot);
+    src: url(../FUENTES/PfennigBoldItalic.svg);
+    src: url(../FUENTES/PfennigBoldItalic.ttf);
+}
 body{
     color: white;
 }
