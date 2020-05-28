@@ -159,6 +159,8 @@ footer{
     background-image: url(../IMAGENES/Teclas.jpg);
     background-repeat: no-repeat;
     background-position: left;
+    border: 20px solid; /*coloca un borde de 20px al formulario*/
+    border-image: url(../IMAGENES/Marco.jpg)30%  round;/*cuanto mas es el porcentaje mas se repite la imagen y la propiedad round indica que debe bordear en este caso el formulario*/
 }
 #formulario p, fieldset{
     background-color: rgba(250,250,250,.5);
