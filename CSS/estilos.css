@@ -95,6 +95,7 @@ h3{
     background-color: #e4e4e4;
     padding: 8px 8px 8px 8px;
     box-shadow: 0 0 10px #FFFFFF;
+    border-radius: 1em;/*remplaza cada esquina del borde en un arco*/
 }
 #sobreContxita img{
 margin: 10px;
