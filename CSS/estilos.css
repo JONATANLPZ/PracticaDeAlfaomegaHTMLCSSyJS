@@ -81,7 +81,7 @@ h3{
 }
 /*colocamos el color a cada elemento "li" por separado con el id "barra"  con la funcion :nth-child()*/
 #barra ul li:nth-child(1){
-    background: #FFFFFF;
+    background: #FFFFFF;   
 }
 #barra ul li:nth-child(2){
     background: #CCCCCC;
@@ -94,6 +94,7 @@ h3{
     margin: 10px;
     background-color: #e4e4e4;
     padding: 8px 8px 8px 8px;
+    box-shadow: 0 0 10px #FFFFFF;
 }
 #sobreContxita img{
 margin: 10px;
