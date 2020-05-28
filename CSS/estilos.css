@@ -181,3 +181,6 @@ footer{
     -moz-column-rule:medium double #666666;
     column-column-rule:medium double #666666;*/
 }
+.sombra{
+    text-shadow: 4px 4px 4px rgb(233, 224, 224);
+}
