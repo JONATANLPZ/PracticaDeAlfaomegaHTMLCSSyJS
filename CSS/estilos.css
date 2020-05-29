@@ -93,7 +93,7 @@ h3{
     display: inline;
     margin: 10px;
     background-color: #e4e4e4;
-    padding: 8px 8px 8px 8px;
+    padding: 5px 10px 5px 10px;
     box-shadow: 0 0 10px #FFFFFF;
     border-radius: 1em;/*remplaza cada esquina del borde en un arco*/
 }
