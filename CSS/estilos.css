@@ -113,6 +113,12 @@ box-shadow: 0 0 10px #d1d8cb;
     y el 200px verticalmente
     */
 }
+#sobreContxita blockquote{
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 3em;
+    line-height: 1.5em;
+}
 /*con el header not cambiamos los valores en este caso el color de todas los elementos header menos los headers con el id="CabeceraImagen"*/
 header:not(#CabeceraPagina){
     background-color: rgba(231, 14, 14, 0.3);
