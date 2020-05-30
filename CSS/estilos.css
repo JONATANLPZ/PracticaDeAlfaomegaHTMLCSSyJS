@@ -188,8 +188,9 @@ footer{
     -moz-column-rule:medium double #666666;
     column-column-rule:medium double #666666;*/
 }
+/*Sombra a la cabecera y demas*/
 .sombra{
     text-shadow: 4px 4px 4px rgb(233, 224, 224);
-    -webkit-text-stroke: 2px #33AF89;/*añade un borde exterior a la fuente*/
+    -webkit-text-stroke: 2px rgb(245, 245, 245);/*añade un borde exterior a la fuente*/
     -webkit-text-fill-color:#0e0c0c;/*establece el color de reñeno del texto*/
 }
