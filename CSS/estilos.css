@@ -106,7 +106,12 @@ box-shadow: 0 0 10px #d1d8cb;
     margin: 10px, 10px, 10px, 0px;
     float: right;
     box-shadow: 0 0 10px #d1d8cb;
-    border-radius: 0.5em
+    border-radius: 0.5em;
+    background: -webkit-radial-gradient(50% 50%, 450px 200px,  #a09d9d,#1f1e1e);
+    /*50% 50% indican que va a la mitad horizontalmente y el otro 50% verticalmente o sea en este caso
+    el degradado comienza en la mitad, el 450px indica cuanto se va a expandir horizontalmente 
+    y el 200px verticalmente
+    */
 }
 /*con el header not cambiamos los valores en este caso el color de todas los elementos header menos los headers con el id="CabeceraImagen"*/
 header:not(#CabeceraPagina){
