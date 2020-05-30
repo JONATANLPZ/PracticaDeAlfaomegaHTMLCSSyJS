@@ -162,6 +162,9 @@ article p:nth-of-type(even){
     float: right;
     border-radius: 0.5em
 }
+#posts h2{
+    text-align: center;
+}
 footer{
     background-color: rgba(0,80,250,.7);
     margin-top: 5px;
