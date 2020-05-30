@@ -37,15 +37,13 @@ dfn{
     font-size: 350%;
     text-align: center;
     line-height: 0%;
-    /*Versalitas al texto*/
-    font-variant: small-caps;
+    font-variant: small-caps;/*Versalitas al texto*/
 }
 #cabeceraPagina h2{
  font-size: 250%;   
  text-align: center;
  line-height: 0%;
- /*Versalitas al texto*/
- font-variant: small-caps;
+ font-variant: small-caps;/*Versalitas al texto*/
 }
 #blog h2{
     font-size: 200%;
@@ -58,12 +56,12 @@ h3{
     line-height: 10%;
 }
 #cabeceraPagina{
-    background-color:rgb(86, 160, 209);
+    background:-webkit-linear-gradient(top, #f0ebeb,#333232, #e00404 30%);/*el 30% quiere decir que a partir del 30% de la cabecera comience a degradarse el tercer color*/
     overflow: hidden;
 }
 /*#principal seria como el body*/
 #principal{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(39, 37, 37);
     width: 1000px;
     margin: auto;
     overflow: hidden;
