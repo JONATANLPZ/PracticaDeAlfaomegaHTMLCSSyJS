@@ -184,23 +184,42 @@ footer{
     background-color: rgba(250,250,250,.5);
 }
 /*BIOGRAFIA*/
-#biografia article{
-    /*-webkit-column-count: 2;/*Compatibilidad para Google y Safari
+/*#biografia article{
+    -webkit-column-count: 2;/*Compatibilidad para Google y Safari
     -moz-column-count: 2;Compatibilidad para Firefox
-    column-count: 2;*/
+    column-count: 2;
 
-    /*Establecemos la separacion de las columnas
+    Establecemos la separacion de las columnas
     -webkit-column-gap: 3em;
     -moz-column-gap: 3em;
-    column-gap: 3em;*/
+    column-gap: 3em;
 
-    /*Establecemos el ancho de las columnas*/
-    -webkit-column-width: 10em;
+    Establecemos el ancho de las columnas
+   -webkit-column-width: 10em;
     -moz-column-width: 10em;
     column-width: 10em;
-    /*-webkit-column-rule: medium double #666666;
+    -webkit-column-rule: medium double #666666;
     -moz-column-rule:medium double #666666;
-    column-column-rule:medium double #666666;*/
+    column-column-rule:medium double #666666;
+}*/
+#enPiano{
+  /*  -webkit-transform: translate(350px);/*el primer valor para la escala en x(horizontal) 
+    y el segundo en y (vertical)*/
+    float: left;
+    margin:20px;
+    box-shadow: 0 0 10px rgb(240, 247, 233);
+    border-radius: .5em;
+}
+#bio{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 656px;
+    height: 180px;
+    box-shadow: 0 0 10px rgb(240, 247, 233);
+    border-radius: .5em;
+    background: -webkit-radial-gradient(50% 50%, 800px 200px,rgb(240, 247, 233),rgb(128, 131, 125));
 }
 /*Sombra a la cabecera y demas*/
 .sombra{
